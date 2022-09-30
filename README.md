@@ -22,7 +22,7 @@ This is a Pokeberry API app project developed for the Python developer Globant T
 
    ```bash
    $ python -m venv venv
-   $ . venv/Scripts/activate
+   $ venv\Scripts\activate
    ```
 
 5. Install the requirements
