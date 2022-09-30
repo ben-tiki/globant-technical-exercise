@@ -1,0 +1,16 @@
+ol {
+	list-style-type: none;
+	counter-reset: li;
+    margin-left: 1rem;
+}
+li {
+	font-size: 1.5rem;
+    font-family: 'Heebo', sans-serif;
+}
+
+li:before {
+  counter-increment: li;
+  content: counter(li, decimal-leading-zero);
+	color: #bfd732;
+	margin-right: 0.25em;
+}
